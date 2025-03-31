@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rota Comercial</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Consulta de Rotas Comerciais</h1>
+        
+        <div class="form-rotas">
+            <label for="origem">País de Origem:</label>
+            <input type="text" id="origem" placeholder="Digite o país de origem">
+            
+            <label for="destino">País de Destino:</label>
+            <input type="text" id="destino" placeholder="Digite o país de destino">
+            
+            <button id="buscarRota">Buscar Rota</button>
+        </div>
+        
+        <div id="rotaResultado">
+            <h2>Rota Encontrada:</h2>
+            <p id="rota"></p>
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>

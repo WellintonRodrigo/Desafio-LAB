@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de Países</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Consulta de Países</h1>
+        <input type="text" id="search" placeholder="Digite o nome, sigla ou moeda do país">
+        <button id="searchBtn">Buscar</button>
+        
+        <div id="results"></div>
+        <div id="details" style="display: none;">
+            <img id="flag" src="" alt="Bandeira do país">
+            <h2 id="countryName"></h2>
+            <p><strong>Capital:</strong> <span id="capital"></span></p>
+            <p><strong>População:</strong> <span id="population"></span></p>
+            <p><strong>Timezone:</strong> <span id="timezone"></span></p>
+            <p><strong>Moedas:</strong> <span id="currencies"></span></p>
+            <p><strong>Idiomas:</strong> <span id="languages"></span></p>
+            <p><strong>Blocos Econômicos:</strong> <span id="regionalBlocks"></span></p>
+            <p><strong>Países Vizinhos:</strong> <span id="borders"></span></p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+    
+</body>
+</html>
